@@ -22,8 +22,6 @@ namespace NumPadLooper.ViewModel
         public MainWindowViewModel()
         {
             CreateLibraryCommand = new DelegateCommand(Create, CanCreate);
-            createEnabled = true;
-
         }
 
         void Create()
@@ -35,33 +33,36 @@ namespace NumPadLooper.ViewModel
 
             try
             {
-                if (createEnabled)
-                {
-                    if (informationResult == MessageBoxResult.No)
-                    { return; }
-                    else { libraryPath = SelectPath(); }
 
-                    libraryPath = $"{libraryPath}/NumPadLibrary";
-                    DirectoryInfo directoryInfo = Directory.CreateDirectory($"{libraryPath}");
-                    MessageBox.Show("Your library has been created! You can add audio files to it now.");
-                    createEnabled = false;
-                    // do stuff to create folder. 
-                    // 1. Show input modal for user to browse to path. Grab path. Save path. 
+                if (informationResult == MessageBoxResult.No)
+                { return; }
+
+                libraryPath = SelectPath();
+                libraryPath = $"{libraryPath}\\NumPadLibrary";
+
+                DirectoryInfo directoryInfo = Directory.CreateDirectory($"{libraryPath}");
+                MessageBox.Show("Your library has been created! You can add audio files to it now.");
+                
                     // 2. Check if folder name NumPadLibrary exists
                     //  2a. If not, create folder. 
                     //  2b. If, move to next step of adding sound files to library. Browse/grab/place.
-                }
 
-                else
-                {
-                    MessageBox.Show("You have already created a library! Please add to it :).");
-                    return;
-                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        bool CanCreate()
+        {
+
+            if (Directory.Exists(libraryPath))
+            {
+                MessageBox.Show("You have already created a library! Please add to it :).");
+                return false;
+            }
+            return true;
         }
 
         private string SelectPath()
@@ -76,10 +77,7 @@ namespace NumPadLooper.ViewModel
 
         }
 
-        bool CanCreate()
-        {
-            return true;
-        }
+
 
     }
 }

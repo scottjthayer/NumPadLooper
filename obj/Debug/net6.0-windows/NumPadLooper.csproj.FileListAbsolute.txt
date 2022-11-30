@@ -5,11 +5,9 @@ A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\bin\Debug\net6.0-win
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\bin\Debug\net6.0-windows\NumPadLooper.pdb
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\bin\Debug\net6.0-windows\Prism.dll
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper.csproj.AssemblyReference.cache
-A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\View\MainWindow.g.cs
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\App.g.cs
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper_MarkupCompile.cache
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper_MarkupCompile.lref
-A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\View\MainWindow.baml
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper.g.resources
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper.GeneratedMSBuildEditorConfig.editorconfig
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper.AssemblyInfoInputs.cache
@@ -21,3 +19,5 @@ A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-win
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper.pdb
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\NumPadLooper.genruntimeconfig.cache
 A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\ref\NumPadLooper.dll
+A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\View\NumPadMain.g.cs
+A:\Microsoft Visual Studio\SOURCE\NumPadLooper\NumPadLooper\obj\Debug\net6.0-windows\View\NumPadMain.baml

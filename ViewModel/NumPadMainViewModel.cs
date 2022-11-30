@@ -13,13 +13,13 @@ using System.IO;
 
 namespace NumPadLooper.ViewModel
 {
-    internal class MainWindowViewModel
+    internal class NumPadMainViewModel
     {
         public DelegateCommand CreateLibraryCommand { get; private set; }
         public string? libraryPath { get; private set; }
         private bool createEnabled { get; set; }
 
-        public MainWindowViewModel()
+        public NumPadMainViewModel()
         {
             CreateLibraryCommand = new DelegateCommand(Create, CanCreate);
         }

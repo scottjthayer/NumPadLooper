@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="View\MainWindow.xaml">
+    <Page Update="View\NumPadMain.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

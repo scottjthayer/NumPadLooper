@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z9YC8IZ0aH/Ia+WwysDHd1gb/01HzISfPkPmT+qsUe3ztGF96C82DKQcOVhDWlMfNSmwP6u15jagJajV+C3VCA==",
+  "dgSpecHash": "n8zrz4r9FgpHmS+Lnltfyi410jznErnwFT7l205WT+oiPUSPqJQIbYhwFZpSfraKDLsbr4v6NqFT963ie2QrNA==",
   "success": true,
   "projectFilePath": "A:\\Microsoft Visual Studio\\SOURCE\\NumPadLooper\\NumPadLooper\\NumPadLooper.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pratty\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512"
+  ],
   "logs": []
 }

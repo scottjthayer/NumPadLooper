@@ -42,7 +42,7 @@
 
     </Grid>
     <Window.InputBindings>
-        <KeyBinding Key="Add" Command="{Binding CreateLibraryCommand}"/>
+        <KeyBinding Key="Add" Command="{Binding _createLibraryCommand}"/>
     </Window.InputBindings>
    
 </Window>

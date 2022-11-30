@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NumPadLooper.Model
+namespace NumPadLooper.ViewModel
 {
-    internal class LibraryModel
+    internal class LibraryViewLogic
     {
+
     }
 }

@@ -24,7 +24,7 @@ namespace NumPadLooper
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = new NumPadMainViewModel();
+            this.DataContext = new NumPadMainLogic();
           
         }
     }
